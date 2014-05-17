@@ -613,9 +613,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.0!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar
-[debug] :: resolution report :: resolve 764ms :: artifacts dl 39ms
+[debug] :: resolution report :: resolve 1521ms :: artifacts dl 42ms
 [debug] 	report for default#study3$sbt_2.10;1.0 default produced in C:\Users\fin01\IdeaProjects\study3\target\resolution-cache\reports\default-study3$sbt_2.10-default.xml
-[debug] 	resolve done (764ms resolve - 39ms download)
+[debug] 	resolve done (1521ms resolve - 42ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#study3$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -949,6 +949,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.0!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.0!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] org.jetbrains#sbt-structure;2.3.2!sbt-structure.jar(src)
-[debug] :: resolution report :: resolve 216ms :: artifacts dl 45ms
+[debug] :: resolution report :: resolve 217ms :: artifacts dl 56ms
 [debug] 	report for default#study3$sources_2.10;1.0 default produced in C:\Users\fin01\IdeaProjects\study3\target\resolution-cache\reports\default-study3$sources_2.10-default.xml
-[debug] 	resolve done (216ms resolve - 45ms download)
+[debug] 	resolve done (217ms resolve - 56ms download)
