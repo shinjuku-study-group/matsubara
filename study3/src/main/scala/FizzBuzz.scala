@@ -16,5 +16,5 @@ object FizzBuzz {
     }
 
     println(str.mkString)
-}
-}
+    }
+    }
