@@ -9,8 +9,8 @@ object FizzBuzz {
     val checker15 = checker(15) _
 
     val str = for (i <- 1 to 50) yield {
-      if(checker15(i)) " fizzBuzz "
-      else if(checker3(i))  " fizz "
+        if(checker15(i)) " fizzBuzz "
+        else if(checker3(i))  " fizz "
       else if(checker5(i)) " buzz "
       else i
     }
