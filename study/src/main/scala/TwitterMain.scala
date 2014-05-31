@@ -14,12 +14,11 @@ object TwitterMain {
       .setHttpProxyPort(8080)
       .setOAuthConsumerKey("Xz7SZlSoCbGW7exm9zQYoUPxF")
       .setOAuthConsumerSecret("TQuHoTZP8s3kg7CvGbAoijdgs1xysqA9w2fA0vBjIzgyKZbvhC")
-      .setOAuthAccessToken("89462095-dZkiMHvEIYkD4RmutK1PnUcSxxxELk5iMODvflxZy")
-      .setOAuthAccessTokenSecret("RzxXiBuA2Fvd8PcornQsO4LjgputqRNJHYfoYH9YhL0SV")
+      .setOAuthAccessToken("89462095-0C7FWRq51EuiE4RcKTpco6XLfw4KZRmLuv0tp8dgj")
+      .setOAuthAccessTokenSecret("mAniHcpfPNq9ZRLF8DXqSqKoMFeXduJMjj11YRPeR9b5Q")
     val tf = new TwitterFactory(cb.build())
     val twitter = tf.getInstance()
     println(twitter.getAccountSettings)
-
 
     import collection.JavaConversions._
     val statuses = twitter.getHomeTimeline
@@ -27,5 +26,7 @@ object TwitterMain {
     for (status: Status <- statuses) {
       println(status.getUser.getName + ":" + status.getText)
     }
+
+    twitter.updateStatus("俺のクライアント")
   }
 }
