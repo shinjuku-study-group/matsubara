@@ -35,10 +35,34 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/play-scala.iml" filepath="$PROJECT_DIR$/play-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="compile $FileDir$ $UnixSeparators($FilePath$)$ion$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .scss files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="sass" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS" />
+      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="program" value="C:/Ruby200-x64/bin/compass.bat" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
   </component>
   <component name="ScalaSbtSettings">
     <option name="linkedExternalProjectsSettings">
@@ -56,6 +80,14 @@
     <library name="activator-launch-1.2.2">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/activator-launch-1.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="compass-library">
+      <CLASSES>
+        <root url="file://C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6" />
+        <root url="file://C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

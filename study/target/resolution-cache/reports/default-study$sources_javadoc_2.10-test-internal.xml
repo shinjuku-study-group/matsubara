@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140609212129"/>
+		date="20140615075331"/>
 	<dependencies>
 		<module organisation="org.twitter4j" name="twitter4j-core">
 			<revision name="4.0.1" status="release" pubdate="20140319020431" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
@@ -15,10 +15,10 @@
 				<metadata-artifact status="no" details="" size="3650" time="0" location="C:\Users\simezi\.ivy2\cache\org.twitter4j\twitter4j-core\ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1.pom"/>
 				<caller organisation="default" name="study$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="twitter4j-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="261752" time="1605" location="C:\Users\simezi\.ivy2\cache\org.twitter4j\twitter4j-core\srcs\twitter4j-core-4.0.1-sources.jar">
+					<artifact name="twitter4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="261752" time="0" location="C:\Users\simezi\.ivy2\cache\org.twitter4j\twitter4j-core\srcs\twitter4j-core-4.0.1-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-sources.jar"/>
 					</artifact>
-					<artifact name="twitter4j-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="735542" time="2296" location="C:\Users\simezi\.ivy2\cache\org.twitter4j\twitter4j-core\docs\twitter4j-core-4.0.1-javadoc.jar">
+					<artifact name="twitter4j-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="735542" time="0" location="C:\Users\simezi\.ivy2\cache\org.twitter4j\twitter4j-core\docs\twitter4j-core-4.0.1-javadoc.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-javadoc.jar"/>
 					</artifact>
 					<artifact name="twitter4j-core" type="jar" ext="jar" status="no" details="" size="288719" time="0" location="C:\Users\simezi\.ivy2\cache\org.twitter4j\twitter4j-core\jars\twitter4j-core-4.0.1.jar">

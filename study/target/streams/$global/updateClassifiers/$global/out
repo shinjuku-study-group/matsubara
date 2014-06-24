@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for default#study$sources_javadoc_2.10;1.0 [compile]
 [debug] == resolving dependencies default#study$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21dcc34b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@478b1a2e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	found org.scala-lang#scala-library;2.10.2 in sbt-chain
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies default#study$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.2 [compile->master]
 [debug] == resolving dependencies default#study$sources_javadoc_2.10;1.0->org.twitter4j#twitter4j-core;4.0.1 [compile->default(compile)]
 [info] Resolving org.twitter4j#twitter4j-core;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c0347a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1607c38d
 [debug] sbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;4.0.1
 [debug] 	local: revision in cache: org.twitter4j#twitter4j-core;4.0.1
 [debug] 	found org.twitter4j#twitter4j-core;4.0.1 in sbt-chain
@@ -217,21 +217,9 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar
-[debug] 		tried C:\Users\simezi\.ivy2\local\org.twitter4j\twitter4j-core\4.0.1\srcs\twitter4j-core-sources.jar
-[debug] 		tried C:\Users\simezi\.ivy2\local\org.twitter4j\twitter4j-core\4.0.1\docs\twitter4j-core-javadoc.jar
+[debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.1!twitter4j-core.jar(src)
+[debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.1!twitter4j-core.jar(doc)
 [debug] 	[NOT REQUIRED] org.twitter4j#twitter4j-core;4.0.1!twitter4j-core.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-sources.jar
-[info] downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-sources.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-sources.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-sources.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.twitter4j#twitter4j-core;4.0.1!twitter4j-core.jar(src) (1605ms)
-[debug] 		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-javadoc.jar
-[info] downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-javadoc.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-javadoc.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-javadoc.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.0.1/twitter4j-core-4.0.1-javadoc.jar
-[info] 	[SUCCESSFUL ] org.twitter4j#twitter4j-core;4.0.1!twitter4j-core.jar(doc) (2296ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar(doc)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar(doc)
@@ -240,7 +228,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
-[debug] :: resolution report :: resolve 79ms :: artifacts dl 3923ms
+[debug] :: resolution report :: resolve 83ms :: artifacts dl 21ms
 [debug] 	report for default#study$sources_javadoc_2.10;1.0 compile produced in C:\Users\simezi\IdeaProjects\matsubara\study\target\resolution-cache\reports\default-study$sources_javadoc_2.10-compile.xml
 [debug] 	report for default#study$sources_javadoc_2.10;1.0 runtime produced in C:\Users\simezi\IdeaProjects\matsubara\study\target\resolution-cache\reports\default-study$sources_javadoc_2.10-runtime.xml
 [debug] 	report for default#study$sources_javadoc_2.10;1.0 test produced in C:\Users\simezi\IdeaProjects\matsubara\study\target\resolution-cache\reports\default-study$sources_javadoc_2.10-test.xml
@@ -254,4 +242,4 @@
 [debug] 	report for default#study$sources_javadoc_2.10;1.0 docs produced in C:\Users\simezi\IdeaProjects\matsubara\study\target\resolution-cache\reports\default-study$sources_javadoc_2.10-docs.xml
 [debug] 	report for default#study$sources_javadoc_2.10;1.0 pom produced in C:\Users\simezi\IdeaProjects\matsubara\study\target\resolution-cache\reports\default-study$sources_javadoc_2.10-pom.xml
 [debug] 	report for default#study$sources_javadoc_2.10;1.0 scala-tool produced in C:\Users\simezi\IdeaProjects\matsubara\study\target\resolution-cache\reports\default-study$sources_javadoc_2.10-scala-tool.xml
-[debug] 	resolve done (79ms resolve - 3923ms download)
+[debug] 	resolve done (83ms resolve - 21ms download)
