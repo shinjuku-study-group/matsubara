@@ -132,7 +132,7 @@ get_mem_opts () {
   (( $meta > 256 )) || meta=256
   (( $meta < 1024 )) || meta=1024
 
-  # default is to set memory options but this can be overridden by code section below
+  # defaulta is to set memory options but this can be overridden by code section below
   memopts="-Xms${mem}m -Xmx${mem}m"
   if [[ "${java_version}" > "1.8" ]]; then
     extmemopts="-XX:MetaspaceSize=64m -XX:MaxMetaspaceSize=${meta}m"
@@ -239,7 +239,7 @@ run() {
   exit $exit_code
 }
 
-# Loads a configuration file full of default command line options for this script.
+# Loads a configuration file full of defaulta command line options for this script.
 loadConfigFile() {
   cat "$1" | sed '/^\#/d'
 }
@@ -263,7 +263,7 @@ Usage: $script_name <command> [options]
   -mem <integer>     Set memory options (default: $sbt_mem, which is $(get_mem_opts $sbt_mem))
   -jvm-debug <port>  Turn on JVM debugging, open at the given port.
 
-  # java version (default: java from PATH, currently $(java -version 2>&1 | grep version))
+  # java version (defaulta: java from PATH, currently $(java -version 2>&1 | grep version))
   -java-home <path>  Alternate JAVA_HOME
 
   # jvm options and output control

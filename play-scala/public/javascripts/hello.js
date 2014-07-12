@@ -1,3 +1,4 @@
-if (window.console) {
-  console.log("Welcome to your Play application's JavaScript!");
-}
+var v;
+v = 1;
+v = "string";
+//# sourceMappingURL=hello.js.map
