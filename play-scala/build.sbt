@@ -2,9 +2,8 @@ name := """play-scala"""
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val root = (project in file(".")).enablePlugins(PlayScala).settings(scalaVersion := "2.11.1")
 
-scalaVersion := "2.11.1"
 
 libraryDependencies ++= Seq(
   jdbc,

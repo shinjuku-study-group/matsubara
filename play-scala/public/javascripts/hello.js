@@ -1,4 +1,2 @@
-var v;
-v = 1;
-v = "string";
+alert("8mile!");
 //# sourceMappingURL=hello.js.map

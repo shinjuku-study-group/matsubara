@@ -1,13 +1,13 @@
 # --- !Ups
-create table addressbook{
+create table addressbook(
 id bigint(20) NOT NULL AUTO_INCREMENT,
-name carchar(50),
+name varchar(50),
 age int,
 tel varchar(50),
 address varchar(128),
 PRIMARY KEY(id)
-};
+);
 
-# --- !Downs
+# --- !Downsa
 
 drop table addressbook;
